@@ -1,15 +1,15 @@
 #include <stdio.h>
 int decimal(int dec){
-    int binary[32], i = 0;
+    int octal[32], i = 0;
     // conversion 
       while (dec > 0) {
-        binary[i++] = dec % 2;
-        dec /= 2;
+        octal[i++] = dec % 8;
+        dec /= 8;
     }
-    //binary output display
-    printf("Binary is : ");
+    //Octal output display
+    printf("Octal is : ");
     for (int j = i - 1; j >= 0; j--)
-        printf("%d", binary[j]);
+        printf("%d", octal[j]);
 }
 int main() {
     int dec;
