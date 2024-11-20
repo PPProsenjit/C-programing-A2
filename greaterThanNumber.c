@@ -2,16 +2,16 @@
 long largeNumber(int num1, int num2, int num3){
     if (num1 > num2 ){
         if (num1 > num3){
-            printf(" %d is gater than number %d and %d", num1, num2, num3);
+            printf(" %d is greater than number %d and %d", num1, num2, num3);
         }
         else
-        printf(" %d is gater than number %d and %d", num3, num1, num2);
+        printf(" %d is greater than number %d and %d", num3, num1, num2);
     }
     else if( num2 > num3){
-        printf(" %d is gater than number %d and %d", num2, num1, num3);
+        printf(" %d is greater than number %d and %d", num2, num1, num3);
     }
     else {
-        printf(" %d is gater than number %d and %d", num3, num1, num2);
+        printf(" %d is greater than number %d and %d", num3, num1, num2);
     }
     return 0;
     
